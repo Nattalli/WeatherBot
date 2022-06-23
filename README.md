@@ -9,5 +9,5 @@ It call back next information:
  - what is the weather (sunny, cloud ...)
  
  The link for this bot: http://t.me/FastWeatherInfiBot
- P.S. the bot is not active now
+The bot is working now with the simplest functioanality from 2 processes: \help and \start.
  
