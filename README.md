@@ -1,5 +1,7 @@
 # WeatherBot
 
+The bot is already deployed with Heroku.
+
 It is a bot which answer actual parameters for request. 
 It call back next information: 
  - searched city
