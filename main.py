@@ -26,8 +26,13 @@ dispatcher = Dispatcher(bot)
 
 @dispatcher.message_handler(commands=['start'])
 async def start_command(message: types.Message):
-    await message.reply('Hello! I am Fast Weather Bot \U0001F31A \U0001F308	. \n To find out the weather in your '
+    await message.reply('Hello! I am Fast Weather Bot \U0001F31A \U0001F308	. \nTo find out the weather in your '
                         'city - enter the name of the city: ')
+
+
+@dispatcher.message_handler(commands=['help'])
+async def help_command(message: types.Message):
+    await message.reply("Hi!\nIf you want know a weather in your city - just type the city in English.")
 
 
 @dispatcher.message_handler()
