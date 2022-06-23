@@ -5,7 +5,7 @@ It call back next information:
  - searched city
  - current time
  - temperature in C
- - how yhe temperature actualy feels
+ - how the temperature actualy feels
  - what is the weather (sunny, cloud ...)
  
  The link for this bot: http://t.me/FastWeatherInfiBot
